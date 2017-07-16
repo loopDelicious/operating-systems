@@ -1,0 +1,13 @@
+:root{
+    --main-color: #586BA4;
+    --secondary-color: #F5DD90;
+    --tertiary-color: #F68E5F;
+    --contrast: #F76C5E;
+    --light-text: whitesmoke;
+    --dark: #324376;
+
+    /* typography */
+
+    --main-font: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
