@@ -2,17 +2,6 @@ import React, { Component } from 'react';
 import '../css/App.css';
 import * as d3 from 'd3';
 
-// const cssparser = require("cssparser");
-// const parser = new cssparser.Parser();
-// const astVariables = parser.parse('raw-loader!../css/variables.css');
-import astVariables from 'raw-loader!../css/variables.css';
-console.log(astVariables);
-// const jsonVariables = astVariables.toJSON(type);
-
-// const parser = require('css-variables-parser');
-// const variables = parser.parseFile('../css/variables.css');
-// const variables = parser.parse(':root { --color-primary: red; }');
-
 class App extends Component {
 
     componentDidMount = () => {
@@ -24,7 +13,7 @@ class App extends Component {
 
         let color = d3.scaleLinear()
             .domain([-1, 5])
-            .range([astVariables["main-color"], "hsl(228,30%,40%)"])
+            .range(["hsl(225,30%,49%)", "hsl(46,83%,76%)", "hsl(19,89%,67%)"])
             .interpolate(d3.interpolateHcl);
 
         let pack = d3.pack()
