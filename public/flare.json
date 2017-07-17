@@ -32,7 +32,6 @@
                   "children": [
                     {"name": "Oracle Linux", "size": 743},
                     {"name": "Scientific Linux", "size": 743}
-
                   ]
                 }
               ]
@@ -76,6 +75,7 @@
                 {"name": "OpenBSD", "size": 534}
               ]
             },
+            {"name": "SunOS", "size": 534},
             {
               "name": "NeXTSTEP",
               "children": [
@@ -85,6 +85,17 @@
                     {"name": "iOS", "size": 1034}
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oracle Solaris",
+          "children": [
+            {
+              "name": "OpenSolaris",
+              "children": [
+                {"name": "OpenIndiana", "size": 530}
               ]
             }
           ]

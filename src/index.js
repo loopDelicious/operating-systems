@@ -5,8 +5,8 @@ import './css/reset.css';
 import './css/variables.css';
 import './css/index.css';
 
-import App from './components/App';
+import Circle from './components/circles';
 import registerServiceWorker from './components/registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Circle />, document.getElementById('root'));
 registerServiceWorker();
