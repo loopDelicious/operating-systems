@@ -120,7 +120,19 @@ class App extends Component {
     render() {
         return (
           <div className="App">
-              <svg width="960" height="960" />
+              <div id="intro">
+                  <div className="width">
+                      <h2>Server Operating Systems</h2>
+                      <h3>
+                          <i className="fa fa-medium fa-lg" /> Read on <a href="https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.oq7bf9wki">Medium</a>
+                          <span className="spacer"> | </span>
+                          <i className="fa fa-github fa-lg" /> Fork me on <a href="https://github.com/loopDelicious/indeed">Github</a>
+                      </h3>
+
+                  </div>
+              </div>
+              <p className="section">This is a family tree and market share estimate of (mostly) current server operating systems.</p>
+              <svg id="bubbles" width="960" height="960" />
           </div>
         );
     }
