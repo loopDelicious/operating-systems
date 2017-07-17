@@ -3,86 +3,98 @@
   "children": [
     {
       "name": "Unix",
+      "size": 66400,
       "children": [
         {
           "name": "Linux",
+          "size": 36852,
           "children": [
-            {"name": "Android", "size": 3000},
+            {"name": "Android", "size": 1},
             {
               "name": "Debian",
+              "size": 11719,
               "children": [
-                {"name": "Linux Mint Debian Edition", "size": 743},
-                {"name": "Knoppix", "size": 743},
+                {"name": "Linux Mint Debian Edition", "size": 37},
+                {"name": "Knoppix", "size": 37},
                 {
                   "name": "Ubuntu",
+                  "size": 13525,
                   "children": [
-                    {"name": "Linux Mint", "size": 743},
-                    {"name": "Elementary OS", "size": 743},
-                    {"name": "Trisquel", "size": 743},
-                    {"name": "Kubuntu", "size": 743}
+                    {"name": "Linux Mint", "size": 37},
+                    {"name": "Elementary OS", "size": 37},
+                    {"name": "Trisquel", "size": 37},
+                    {"name": "Kubuntu", "size": 37}
                   ]
                 }
               ]
             },
             {
               "name": "Fedora",
+              "size": 295,
               "children": [
                 {
                   "name": "Red Hat Enterprise Linux",
+                  "size": 1216,
                   "children": [
-                    {"name": "Oracle Linux", "size": 743},
-                    {"name": "Scientific Linux", "size": 743}
+                    {"name": "Oracle Linux", "size": 37},
+                    {"name": "Scientific Linux", "size": 37},
+                    {"name": "CentOS", "size": 7665}
                   ]
                 }
               ]
             },
             {
               "name": "Mandriva Linux",
+              "size": 37,
               "children": [
-                {"name": "Mageia", "size": 743},
-                {"name": "PCLinuxOS", "size": 743},
-                {"name": "Rosa Linux", "size": 743}
+                {"name": "Mageia", "size": 37},
+                {"name": "PCLinuxOS", "size": 37},
+                {"name": "Rosa Linux", "size": 37}
               ]
             },
             {
               "name": "openSUSE",
+              "size": 37,
               "children": [
-                {"name": "SUSE Linux Enterprise", "size": 743}
+                {"name": "SUSE Linux Enterprise", "size": 258}
               ]
             },
             {
               "name": "Arch Linux",
+              "size": 37,
               "children": [
-                {"name": "Manjaro Linux", "size": 743}
+                {"name": "Manjaro Linux", "size": 37}
               ]
             },
             {
               "name": "Gentoo",
+              "size": 1032,
               "children": [
-                {"name": "Chrome OS", "size": 743}
+                {"name": "Chrome OS", "size": 369}
               ]
             },
-            {"name": "Slackware", "size": 743}
+            {"name": "Slackware", "size": 37}
           ]
         },
         {
           "name": "BSD",
+          "size": 1,
           "children": [
-            {"name": "FreeBSD", "size": 534},
+            {"name": "FreeBSD", "size": 463},
             {
               "name": "NetBSD",
               "children": [
-                {"name": "OpenBSD", "size": 534}
+                {"name": "OpenBSD", "size": 1}
               ]
             },
-            {"name": "SunOS", "size": 534},
+            {"name": "SunOS", "size": 1},
             {
               "name": "NeXTSTEP",
               "children": [
                 {
                   "name": "macOS",
                   "children": [
-                    {"name": "iOS", "size": 1034}
+                    {"name": "iOS", "size": 66}
                   ]
                 }
               ]
@@ -95,20 +107,21 @@
             {
               "name": "OpenSolaris",
               "children": [
-                {"name": "OpenIndiana", "size": 530}
+                {"name": "OpenIndiana", "size": 66}
               ]
             }
           ]
         },
-        {"name": "AIX", "size": 534},
-        {"name": "HP-UX", "size": 534},
-        {"name": "Minix", "size": 1534}
+        {"name": "AIX", "size": 1},
+        {"name": "HP-UX", "size": 66},
+        {"name": "Minix", "size": 1}
       ]
     },
     {
       "name": "DOS",
+      "size": 1,
       "children": [
-        {"name": "Windows", "size": 4116}
+        {"name": "Windows", "size": 33600}
       ]
     }
   ]

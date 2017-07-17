@@ -80,6 +80,7 @@ class Circle extends Component {
     };
 
     // for /public/flare.json
+    // for server market share: https://w3techs.com/technologies/overview/operating_system/all
     // for server market share: https://en.wikipedia.org/wiki/Usage_share_of_operating_systems
     // for ancestral checks: https://en.wikipedia.org/wiki/Comparison_of_operating_systems
     // for linux distribution attributions: https://en.wikipedia.org/wiki/Linux_distribution
@@ -90,7 +91,7 @@ class Circle extends Component {
           <div className="App">
               <div id="intro">
                   <div className="width">
-                      <h2>Server Operating Systems</h2>
+                      <h2>Web Server Operating Systems</h2>
                       <h3>
                           <i className="fa fa-medium fa-lg" /> Read on <a href="https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.oq7bf9wki">Medium</a>
                           <span className="spacer"> | </span>
@@ -100,7 +101,7 @@ class Circle extends Component {
                   </div>
               </div>
               <div className="width">
-                <p className="section">This is a family tree and market share estimate of (mostly) current server operating systems. Click on a section to drill down (and back up) to see which operating systems are derived from parent operating systems.</p>
+                <p className="section">This is a family tree and market share estimate of (mostly) current web server operating systems. Click on a section to drill down (and back up) to see which operating systems are derived from parent operating systems.</p>
                 <svg id="bubbles" width="960" height="960" />
               </div>
           </div>
