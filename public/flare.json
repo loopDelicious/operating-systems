@@ -5,25 +5,26 @@
       "name": "Unix",
       "size": 66400,
       "children": [
+        {"name": "Unknown Unix", "size": 28884},
         {
           "name": "Linux",
           "size": 36852,
           "children": [
-            {"name": "Android", "size": 1},
+            {"name": "Android", "size": 4},
             {
               "name": "Debian",
               "size": 11719,
               "children": [
-                {"name": "Linux Mint Debian Edition", "size": 37},
-                {"name": "Knoppix", "size": 37},
+                {"name": "Linux Mint Debian Edition", "size": 4},
+                {"name": "Knoppix", "size": 4},
                 {
                   "name": "Ubuntu",
                   "size": 13525,
                   "children": [
-                    {"name": "Linux Mint", "size": 37},
-                    {"name": "Elementary OS", "size": 37},
-                    {"name": "Trisquel", "size": 37},
-                    {"name": "Kubuntu", "size": 37}
+                    {"name": "Linux Mint", "size": 4},
+                    {"name": "Elementary OS", "size": 4},
+                    {"name": "Trisquel", "size": 4},
+                    {"name": "Kubuntu", "size": 4}
                   ]
                 }
               ]
@@ -36,7 +37,7 @@
                   "name": "Red Hat Enterprise Linux",
                   "size": 1216,
                   "children": [
-                    {"name": "Oracle Linux", "size": 37},
+                    {"name": "Oracle Linux", "size": 4},
                     {"name": "Scientific Linux", "size": 37},
                     {"name": "CentOS", "size": 7665}
                   ]
@@ -49,21 +50,21 @@
               "children": [
                 {"name": "Mageia", "size": 37},
                 {"name": "PCLinuxOS", "size": 37},
-                {"name": "Rosa Linux", "size": 37}
+                {"name": "Rosa Linux", "size": 4}
               ]
             },
             {
               "name": "openSUSE",
-              "size": 37,
+              "size": 4,
               "children": [
                 {"name": "SUSE Linux Enterprise", "size": 258}
               ]
             },
             {
               "name": "Arch Linux",
-              "size": 37,
+              "size": 4,
               "children": [
-                {"name": "Manjaro Linux", "size": 37}
+                {"name": "Manjaro Linux", "size": 4}
               ]
             },
             {
@@ -73,28 +74,29 @@
                 {"name": "Chrome OS", "size": 369}
               ]
             },
-            {"name": "Slackware", "size": 37}
+            {"name": "Slackware", "size": 4},
+            {"name": "Unknown Linux", "size": 958}
           ]
         },
         {
           "name": "BSD",
-          "size": 1,
           "children": [
             {"name": "FreeBSD", "size": 463},
             {
               "name": "NetBSD",
               "children": [
-                {"name": "OpenBSD", "size": 1}
+                {"name": "OpenBSD", "size": 37}
               ]
             },
-            {"name": "SunOS", "size": 1},
+            {"name": "SunOS", "size": 37},
             {
               "name": "NeXTSTEP",
               "children": [
                 {
                   "name": "macOS",
+                  "size": 66,
                   "children": [
-                    {"name": "iOS", "size": 66}
+                    {"name": "iOS", "size": 37}
                   ]
                 }
               ]
@@ -112,17 +114,11 @@
             }
           ]
         },
-        {"name": "AIX", "size": 1},
+        {"name": "AIX", "size": 37},
         {"name": "HP-UX", "size": 66},
-        {"name": "Minix", "size": 1}
+        {"name": "Minix", "size": 37}
       ]
     },
-    {
-      "name": "DOS",
-      "size": 1,
-      "children": [
-        {"name": "Windows", "size": 33600}
-      ]
-    }
+    {"name": "Windows", "size": 33600}
   ]
 }

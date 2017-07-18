@@ -8,7 +8,8 @@
   "dependencies": {
     "d3": "^4.10.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-json-tree": "^0.10.9"
   },
   "scripts": {
     "start": "react-scripts start",
