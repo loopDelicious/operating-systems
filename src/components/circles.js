@@ -6,6 +6,8 @@ class Circle extends Component {
 
     componentDidMount = () => {
 
+        // https://bl.ocks.org/mbostock/7607535
+
         let svg = d3.select("svg"),
             margin = 20,
             diameter = +svg.attr("width"),

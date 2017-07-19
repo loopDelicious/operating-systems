@@ -3,3 +3,7 @@ body {
   padding: 0;
   font-family: var(--main-font);
 }
+
+p {
+  margin: 15px 0;
+}
