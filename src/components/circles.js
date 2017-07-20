@@ -8,7 +8,7 @@ class Circle extends Component {
 
         // https://bl.ocks.org/mbostock/7607535
 
-        let svg = d3.select("svg"),
+        let svg = d3.select("svg#pic-bubbles"),
             margin = 20,
             diameter = +svg.attr("width"),
             g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
@@ -90,23 +90,14 @@ class Circle extends Component {
 
     render() {
         return (
-          <div className="App">
-              <div id="intro">
-                  <div className="width">
-                      <h2>Web Server Operating Systems</h2>
-                      <h3>
-                          <i className="fa fa-medium fa-lg" /> Read on <a href="https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.oq7bf9wki">Medium</a>
-                          <span className="spacer"> | </span>
-                          <i className="fa fa-github fa-lg" /> Fork me on <a href="https://github.com/loopDelicious/indeed">Github</a>
-                      </h3>
 
-                  </div>
-              </div>
-              <div className="width">
-                <p className="section">This is a family tree and market share estimate of (mostly) current web server operating systems. Click on a section to drill down (and back up) to see which operating systems are derived from parent operating systems.</p>
-                <svg id="bubbles" width="960" height="960" />
-              </div>
+          <div className="width circles">
+            <h2>By market share</h2>
+            <p className="section">This is a representation of the same data by market share, an estimate of (mostly) current web server operating systems. Usage of operating systems, especially for running web servers, is an imprecise measure for many reasons - so here's one ballpark estimate.</p>
+            <p className="section">Click on a smaller circle to zoom in, or a larger circle to zoom out. See which operating systems are derived from parent operating systems.</p>
+            <svg id="pic-bubbles" width="960" height="960" />
           </div>
+
         );
     }
 }

@@ -4,6 +4,13 @@ body {
   font-family: var(--main-font);
 }
 
+h2 {
+  margin: 30px 0;
+  color: var(--main-color);
+  font-size: 24px;
+  font-weight: bold;
+}
+
 p {
   margin: 15px 0;
 }
