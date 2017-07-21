@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import JSONTree from 'react-json-tree';
-import '../css/JSONtree.css';
 import json from '../../public/flare.json';
 
 // https://github.com/alexkuz/react-json-tree

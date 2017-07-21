@@ -42,7 +42,7 @@ class Dendrogram extends Component {
                 .data(root.descendants())
                 .enter().append("g")
                 .attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
-                .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+                .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
             node.append("circle")
                 .attr("r", 2.5);
@@ -53,8 +53,6 @@ class Dendrogram extends Component {
                 .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
                 .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
         });
-
-
     };
 
     render() {
@@ -63,9 +61,8 @@ class Dendrogram extends Component {
             <div className="width dendro">
                 <h2>By ancestral relationship</h2>
                 <p className="section">This is a representation of (mostly) current web server operating systems. See which ones are derived from the same parents and which ones are siblings.</p>
-                <svg id="dendro-svg" width="960" height="650" />
+                <svg id="dendro-svg" width="900" height="900" viewBox="180 -50 500 1000" />
             </div>
-
         )
     }
 }

@@ -4,27 +4,26 @@
 
 .node text {
     font: 12px sans-serif;
-    color: aliceblue;
+    color: var(--secondary-color);
 }
 
 .node--internal circle {
-    fill: #555;
+    fill: var(--secondary-color);
 }
 
 .node--internal text {
-    /*text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;*/
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.node--leaf text {
+    color: var(--secondary-color);
 }
 
 .link {
     fill: none;
-    stroke: #555;
-    stroke-opacity: 0.4;
+    stroke: var(--secondary-color);
+    stroke-opacity: 0.6;
     stroke-width: 1.5px;
-}
-
-.node {
-    color: var(--secondary-color);
-    cursor: none;
 }
 
 #dendro-svg {

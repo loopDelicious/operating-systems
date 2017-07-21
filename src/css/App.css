@@ -3,7 +3,7 @@
 }
 
 .width {
-    width: 960px;
+    width: 970px;
     margin: 0 auto;
     text-align: left;
 }
@@ -48,4 +48,8 @@
 
 .spacer {
     margin: 0 10px;
+}
+
+.intro-p {
+    margin: 40px 0;
 }

@@ -12,14 +12,16 @@ class App extends Component {
                         <h3>
                             <i className="fa fa-medium fa-lg" /> Read on <a href="https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.oq7bf9wki">Medium</a>
                             <span className="spacer"> | </span>
-                            <i className="fa fa-github fa-lg" /> Fork me on <a href="https://github.com/loopDelicious/indeed">Github</a>
+                            <i className="fa fa-github fa-lg" /> Fork me on <a href="https://github.com/loopDelicious/operating-systems">Github</a>
                         </h3>
 
                     </div>
                 </div>
-                <div className="width">
-                    <p>Ever wonder why we choose certain operating systems to run our web servers? When someone says they prefer OS X over OS Y, what's the historical context?</p>
-                    <p>Here's 3 views of <a href="https://w3techs.com/technologies/overview/operating_system/all" target="_blank">survey data from W3Techs</a> in 2017, among other sources, illustrating relationships between web server operating systems.</p>
+                <div className="intro-p">
+                    <div className="width">
+                        <p>Ever wonder why we choose certain operating systems to run our web servers? When someone says they prefer OS X over OS Y, why is it?</p>
+                        <p>Here's 3 views of <a href="https://w3techs.com/technologies/overview/operating_system/all" target="_blank">survey data from W3Techs</a> in 2017, among other sources, illustrating relationships between web server operating systems.</p>
+                    </div>
                 </div>
             </div>
         );

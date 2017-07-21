@@ -15,6 +15,4 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<Dendrogram />, document.getElementById('dendro'));
 ReactDOM.render(<Circle />, document.getElementById('circles'));
 ReactDOM.render(<JsonTree />, document.getElementById('jTree'));
-
 registerServiceWorker();
-
