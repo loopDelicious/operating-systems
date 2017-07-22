@@ -95,7 +95,7 @@ class Circle extends Component {
             <h2>By market share</h2>
             <p className="section">This is a representation of the same data by market share, an estimate of (mostly) current web server operating systems. Usage of operating systems, especially for running web servers, is an imprecise measure for many reasons - so here's one ballpark estimate.</p>
             <p className="section">Click on a smaller circle to zoom in, or a larger circle to zoom out. See which operating systems are derived from parent operating systems.</p>
-            <svg id="pic-bubbles" width="960" height="960" />
+            <svg id="pic-bubbles" width="960" height="500" viewBox="0 200 960 500" />
           </div>
 
         );

@@ -13,8 +13,8 @@ import Religion from './components/religion.js';
 import registerServiceWorker from './components/registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Dendrogram />, document.getElementById('dendro'));
 ReactDOM.render(<Circle />, document.getElementById('circles'));
+ReactDOM.render(<Dendrogram />, document.getElementById('dendro'));
 ReactDOM.render(<JsonTree />, document.getElementById('jTree'));
 ReactDOM.render(<Religion />, document.getElementById('religion'));
 registerServiceWorker();
