@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/religion.css';
+import '../css/dendrogram.css';
 import * as d3 from 'd3';
 
 class Religion extends Component {
@@ -50,6 +50,8 @@ class Religion extends Component {
             node.append("text")
                 .attr("dy", 3)
                 .attr("x", function(d) { return d.children ? -8 : 8; })
+                .style("font-size", "16px")
+                .style("fill", "white")
                 .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
                 .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
         });
@@ -59,10 +61,11 @@ class Religion extends Component {
         return (
 
             <div className="width religion">
-                <h2>World religions</h2>
-                <p className="section">Religions test</p>
+                <h2>Comparison with world religions</h2>
+                <p className="section">This is a non-factual representation of OS lineage as compared to the evolution of some world religions. The analogy would look different based on the criteria for comparison: market share, community involvement, shared principles, affordability, gross stereotypes, etc.</p>
+                <p>It's fun to think about the possibilities, and come up with your own mnemonic for studying OS relationships.</p>
                 <div className="religion-graph">
-                    <svg id="religion-svg" width="960" height="900" viewBox="150 -50 600 950" />
+                    <svg id="religion-svg" width="960" height="500" viewBox="-150 0 1200 500" />
                 </div>
             </div>
         )

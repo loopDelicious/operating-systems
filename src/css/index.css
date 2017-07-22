@@ -5,12 +5,19 @@ body {
 }
 
 h2 {
-  margin: 30px 0;
+  margin: 40px 0;
   color: var(--main-color);
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 p {
   margin: 15px 0;
+}
+
+.intro-text {
+  font-size: 16px;
+  font-family: var(--main-font);
+  color: grey;
+  /*TODO: vertical whitepsace around images, intro text styling, separate CTAs*/
 }

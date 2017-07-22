@@ -50,6 +50,7 @@ class Dendrogram extends Component {
             node.append("text")
                 .attr("dy", 3)
                 .attr("x", function(d) { return d.children ? -8 : 8; })
+                .style("fill", "white")
                 .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
                 .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
         });
@@ -59,9 +60,13 @@ class Dendrogram extends Component {
         return (
 
             <div className="width dendro">
-                <h2>By ancestral relationship</h2>
-                <p className="section">This is a representation of (mostly) current web server operating systems. See which ones are derived from the same parents and which ones are siblings.</p>
-                <svg id="dendro-svg" width="900" height="900" viewBox="180 -50 500 1000" />
+                <div className="section">
+                    <h2>By lineage</h2>
+                    <p>See which web server operating systems are derived from the same parents and which ones are siblings.</p>
+                    <div className="dendro-graph">
+                    <svg id="dendro-svg" width="960" height="800" viewBox="-190 400 1300 1" />
+                    </div>
+                </div>
             </div>
         )
     }

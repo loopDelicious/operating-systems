@@ -82,6 +82,7 @@ class Circle extends Component {
     };
 
     // for /public/flare.json
+    // the quantities listed as size are scaled estimates of market share based on W3Tech survey data in 2017, meaning they are relative (not absolute) quantities used to produce the data viz.
     // for server market share: https://w3techs.com/technologies/overview/operating_system/all
     // for server market share: https://en.wikipedia.org/wiki/Usage_share_of_operating_systems
     // for ancestral checks: https://en.wikipedia.org/wiki/Comparison_of_operating_systems
@@ -92,10 +93,13 @@ class Circle extends Component {
         return (
 
           <div className="width circles">
-            <h2>By market share</h2>
-            <p className="section">This is a representation of the same data by market share, an estimate of (mostly) current web server operating systems. Usage of operating systems, especially for running web servers, is an imprecise measure for many reasons - so here's one ballpark estimate.</p>
-            <p className="section">Click on a smaller circle to zoom in, or a larger circle to zoom out. See which operating systems are derived from parent operating systems.</p>
-            <svg id="pic-bubbles" width="960" height="500" viewBox="0 200 960 500" />
+              <div className="section">
+                <h2>By market share</h2>
+                <p>This is a representation of (mostly) current web server operating systems. Usage of operating systems, especially for running web servers, is an imprecise measure for many reasons - here's one ballpark estimate based on <a href="https://w3techs.com/technologies/overview/operating_system/all" target="_blank">survey data from W3Techs</a> in 2017, among other sources.</p>
+                <p>Note: active operating systems with unknown market share were given a nominal presence to display on the visualization as a super tiny dot, but is not representative of actual market share. Furthermore, some operating systems, such as Chrome, iOS, and Android are likely not being used much as web servers. However, their ancestral relationship was interesting to me, so I added them, again as a super tiny dot.</p>
+                <p>Click on a smaller circle to zoom in, or a larger circle to zoom out.</p>
+                <svg id="pic-bubbles" width="960" height="500" viewBox="0 200 960 500" />
+              </div>
           </div>
 
         );
