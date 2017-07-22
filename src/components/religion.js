@@ -61,11 +61,13 @@ class Religion extends Component {
         return (
 
             <div className="width religion">
-                <h2>Comparison with world religions</h2>
-                <p className="section">This is a non-factual representation of OS lineage as compared to the evolution of some world religions. The analogy would look different based on the criteria for comparison: market share, community involvement, shared principles, affordability, gross stereotypes, etc.</p>
-                <p>It's fun to think about the possibilities, and come up with your own mnemonic for studying OS relationships.</p>
-                <div className="religion-graph">
-                    <svg id="religion-svg" width="960" height="500" viewBox="-150 0 1200 500" />
+                <div className="section">
+                    <h2>Comparison with world religions</h2>
+                    <p>This is a non-factual representation of OS lineage as compared to the evolution of some world religions. The analogy would look different based on the criteria for comparison: market share, community involvement, shared principles, affordability, gross stereotypes, etc.</p>
+                    <p>It's fun to think about the possibilities, and come up with your own mnemonic for studying OS relationships.</p>
+                    <div className="religion-graph">
+                        <svg id="religion-svg" width="960" height="500" viewBox="-150 0 1200 500" />
+                    </div>
                 </div>
             </div>
         )

@@ -23,9 +23,10 @@
 
 .dendro-graph {
     background: var(--main-color);
+    margin: 40px 0 20px 0;
 }
 
 .religion-graph {
     background: #9271aa;
-    margin-bottom: 100px;
+    margin: 40px 0 100px 0;
 }

@@ -22,3 +22,7 @@
 .node--leaf {
   pointer-events: none;
 }
+
+#pic-bubbles {
+  margin: 20px 0 20px 0;
+}

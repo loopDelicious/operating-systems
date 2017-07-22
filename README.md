@@ -1,6 +1,6 @@
 ### Evolution of web server operating systems
 
-Data visualization using D3 to illustrate the ancestral lineage and market share of (mostly) modern web server operating systems, using survey data from [W3Techs](https://w3techs.com/technologies/overview/operating_system/all) in 2017, among other sources.
+Data visualization using React and D3 to illustrate the evolution of (mostly) modern web server operating systems, using survey data from [W3Techs](https://w3techs.com/technologies/overview/operating_system/all) in 2017, among other sources.
 
 [Deployed](http://os.meowsergirl.com/) using NGINX and Digital Ocean
 
