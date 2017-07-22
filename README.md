@@ -6,9 +6,14 @@ Data visualization using React and D3 to illustrate the evolution of (mostly) mo
 
 [Blog post on Medium]()
 
-[![Dendrogram]()]()
+### Visualization of OS lineage using D3 dendrogram
+[![OS dendrogram](https://github.com/loopDelicious/operating-systems/blob/master/src/img/dendro.png)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/dendro.png)
 
-[![Zoomable packed circles]()]()
+### OS market share using D3 zoombale packed circles
+[![Zoomable packed circles](https://github.com/loopDelicious/operating-systems/blob/master/src/img/zoom.gif)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/zoom.gif)
+
+### Comparison with world religions using D3 dendrogram
+[![Comparison with world religions](https://github.com/loopDelicious/operating-systems/blob/master/src/img/religion.png)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/religion.png)
 
 ### For development
 
