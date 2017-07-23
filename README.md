@@ -26,4 +26,16 @@ Start React watcher
  `$ yarn start`    
     
 ### For deployment
+Secure shell into remote server
 
+Install dependencies
+
+ `yarn`
+
+Update repository - or clone if the first time
+
+ `# git clone <your-repo>`
+
+Build react files
+
+ `# yarn run build`

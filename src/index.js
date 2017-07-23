@@ -7,7 +7,7 @@ import './css/index.css';
 
 import App from './components/App.js';
 import Circle from './components/circles.js';
-import JsonTree from './components/JSONtree.js';
+// import JsonTree from './components/JSONtree.js';
 import Dendrogram from './components/dendrogram.js';
 import Religion from './components/religion.js';
 import registerServiceWorker from './components/registerServiceWorker';
