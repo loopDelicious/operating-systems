@@ -4,7 +4,7 @@ Data visualization using React and D3 to illustrate the evolution of (mostly) mo
 
 [Deployed](http://os.meowsergirl.com/) using NGINX and Digital Ocean
 
-[Blog post on Medium]()
+[Blog post on Medium](https://medium.com/@joycelin.codes/evolution-of-web-server-operating-systems-ba1cf1c1e3d8)
 
 ### Visualization of OS lineage using D3 dendrogram
 [![OS dendrogram](https://github.com/loopDelicious/operating-systems/blob/master/src/img/dendro.png)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/dendro.png)

@@ -12,7 +12,7 @@ class App extends Component {
                         <h3>
                             by <a href="https://meowsergirl.com/">Joyce Lin</a>
                             <span className="spacer"> | </span>
-                            <i className="fa fa-medium fa-lg" /> Read on <a href="https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.oq7bf9wki">Medium</a>
+                            <i className="fa fa-medium fa-lg" /> Read on <a href="https://medium.com/@joycelin.codes/evolution-of-web-server-operating-systems-ba1cf1c1e3d8">Medium</a>
                             <span className="spacer"> | </span>
                             <i className="fa fa-github fa-lg" /> Fork me on <a href="https://github.com/loopDelicious/operating-systems">Github</a>
 
@@ -23,7 +23,7 @@ class App extends Component {
                 <div className="intro-p">
                     <div className="width">
                         <div className="section intro-text">
-                            <p>Ever wonder why we choose certain operating systems to run our web servers? Read the <a href="https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.oq7bf9wki">full story on Medium</a>.</p>
+                            <p>Ever wonder why we choose certain operating systems to run our web servers? Read the <a href="https://medium.com/@joycelin.codes/evolution-of-web-server-operating-systems-ba1cf1c1e3d8">full story on Medium</a>.</p>
                             <p>Have your own story to tell? <a href="https://github.com/loopDelicious/operating-systems">Fork this project on GitHub</a> and make your own visualizations.</p>
                         </div>
                     </div>
