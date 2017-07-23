@@ -54,10 +54,18 @@
               ]
             },
             {
-              "name": "openSUSE",
-              "size": 4,
+              "name": "Slackware",
               "children": [
-                {"name": "SUSE Linux Enterprise", "size": 258}
+                {
+                  "name": "openSUSE",
+                  "size": 4,
+                  "children": [
+                    {
+                      "name": "SUSE Linux Enterprise",
+                      "size": 258
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -74,7 +82,6 @@
                 {"name": "Chrome OS", "size": 369}
               ]
             },
-            {"name": "Slackware", "size": 4},
             {"name": "Unknown Linux", "size": 958}
           ]
         },

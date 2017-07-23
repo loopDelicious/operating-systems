@@ -21,13 +21,13 @@ OperatingSystems.Unix.Linux.MandrivaLinux,37
 OperatingSystems.Unix.Linux.MandrivaLinux.Mageia,37
 OperatingSystems.Unix.Linux.MandrivaLinux.PCLinuxOS,37
 OperatingSystems.Unix.Linux.MandrivaLinux.RosaLinux,4
-OperatingSystems.Unix.Linux.openSUSE,4
-OperatingSystems.Unix.Linux.openSUSE.SUSELinuxEnterprise,258
+OperatingSystems.Unix.Linux.Slackware,4
+OperatingSystems.Unix.Linux.Slackware.openSUSE,4
+OperatingSystems.Unix.Linux.Slackware.openSUSE.SUSELinuxEnterprise,258
 OperatingSystems.Unix.Linux.ArchLinux,4
 OperatingSystems.Unix.Linux.ArchLinux.ManjaroLinux,4
 OperatingSystems.Unix.Linux.Gentoo,1032
 OperatingSystems.Unix.Linux.Gentoo.Chrome,369
-OperatingSystems.Unix.Linux.Slackware,4
 OperatingSystems.Unix.Linux.UnknownLinux,958
 OperatingSystems.Unix.BSD,
 OperatingSystems.Unix.BSD.FreeBSD,463

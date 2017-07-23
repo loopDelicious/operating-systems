@@ -9,11 +9,14 @@ Data visualization using React and D3 to illustrate the evolution of (mostly) mo
 ### Visualization of OS lineage using D3 dendrogram
 [![OS dendrogram](https://github.com/loopDelicious/operating-systems/blob/master/src/img/dendro.png)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/dendro.png)
 
-### OS market share using D3 zoombale packed circles
+### OS lineage using D3 zoomable packed circles
 [![Zoomable packed circles](https://github.com/loopDelicious/operating-systems/blob/master/src/img/zoom.gif)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/zoom.gif)
 
+### OS market share using relative values in JSON tree
+[![JSON tree](https://github.com/loopDelicious/operating-systems/blob/master/src/img/jsonTree.png)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/zoom.gif)
+
 ### Comparison with world religions using D3 dendrogram
-[![Comparison with world religions](https://github.com/loopDelicious/operating-systems/blob/master/src/img/religion.png)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/religion.png)
+[![Comparison with world religions](https://github.com/loopDelicious/operating-systems/blob/master/src/img/religion.png)](https://github.com/loopDelicious/operating-systems/blob/master/src/img/jsonTree.png)
 
 ### For development
 
