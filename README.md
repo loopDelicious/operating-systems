@@ -27,9 +27,13 @@ Start React watcher
     
 ### For deployment
 
+#### First time
+
 Secure shell into remote server
 
-Update repository - or clone if the first time
+Update NGINX config
+
+Clone repo
 
  `# git clone <your-repo>`
 
@@ -39,4 +43,11 @@ Install dependencies
 
 Build react files
 
- `# yarn run build`
+ `# yarn build`
+
+#### Subsequent updates
+
+Deploy from local environment via deploy script
+
+`$ yarn deploy`
+
