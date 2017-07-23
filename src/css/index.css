@@ -14,6 +14,7 @@ h2 {
 p {
   margin: 15px 0;
   color: var(--text);
+  line-height: 20px;
 }
 
 .intro-text {

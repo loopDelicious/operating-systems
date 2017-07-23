@@ -19,6 +19,7 @@ class Religion extends Component {
         let stratify = d3.stratify()
             .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
+        // load csv via ajax at runtime, otherwise would need text loader for webpack to import at build time
         d3.csv("religion.csv", function(error, data) {
             if (error) throw error;
 

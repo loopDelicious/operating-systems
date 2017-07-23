@@ -19,6 +19,7 @@ class Dendrogram extends Component {
         let stratify = d3.stratify()
             .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
+        // load csv via ajax at runtime, otherwise would need text loader for webpack to import at build time
         d3.csv("flare.csv", function(error, data) {
             if (error) throw error;
 
@@ -61,7 +62,7 @@ class Dendrogram extends Component {
 
             <div className="width dendro">
                 <div className="section">
-                    <h2>By lineage</h2>
+                    <h2>Family tree</h2>
                     <p>See which web server operating systems are derived from the same parents and which ones are siblings.</p>
                     <div className="dendro-graph">
                     <svg id="dendro-svg" width="960" height="800" viewBox="-190 400 1300 1" />
