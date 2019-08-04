@@ -1,3 +1,7 @@
+# Operating systems
+
+![license](https://img.shields.io/github/license/loopDelicious/operating-systems)
+
 ### Evolution of web server operating systems
 
 Data visualization using React and D3 to illustrate the evolution of (mostly) modern web server operating systems, using survey data from [W3Techs](https://w3techs.com/technologies/overview/operating_system/all) in 2017, among other sources.
